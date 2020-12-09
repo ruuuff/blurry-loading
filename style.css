@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg {
+  background: url('https://images.wallpaperscraft.com/image/fish_algae_underwater_194113_1280x720.jpg') no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(30px);
+}
+
+.loading-text {
+  font-size: 50px;
+}
+
+@media (max-width: 800px) {
+  .bg {
+    background-image: url('https://images.wallpaperscraft.com/image/fish_algae_underwater_194113_1440x2560.jpg');
+  }
+}
