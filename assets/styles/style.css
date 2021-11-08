@@ -1,23 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Ubuntu', sans-serif;
-  
-  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+
+  min-height: 100vh;
   margin: 0;
   overflow: hidden;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .bg {
-  background: url('https://images.wallpaperscraft.com/image/fish_algae_underwater_194113_1280x720.jpg') no-repeat center center/cover;
+  background: url("../images/girl_aquarium_fish_164503_1920x1080.jpg") no-repeat
+    center center/cover;
   position: absolute;
   top: -30px;
   left: -30px;
@@ -33,6 +34,6 @@ body {
 
 @media (max-width: 800px) {
   .bg {
-    background-image: url('https://images.wallpaperscraft.com/image/fish_algae_underwater_194113_1440x2560.jpg');
+    background-image: url("../images/girl_aquarium_fish_164503_720x1280.jpg");
   }
 }
